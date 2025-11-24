@@ -1,0 +1,119 @@
+########################################
+# 1. Variáveis de ambiente / segurança
+########################################
+
+# Arquivo real com variáveis secretas
+.env
+*.env
+.env.*
+
+# Exemplos podem ser versionados:
+!*.env.example
+!.env.example
+
+########################################
+# 2. Spring Boot / Java / Maven / Gradle
+########################################
+
+# Diretórios gerados pelo Maven
+target/
+**/target/
+
+# Diretórios gerados pelo Gradle
+build/
+**/build/
+
+# Arquivos de lock / cache
+.mvn/
+.gradle/
+
+# Arquivos de compilação Java
+*.class
+*.war
+*.ear
+*.jar
+*.iml
+
+########################################
+# 3. IDEs / Ferramentas
+########################################
+
+# IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# Eclipse (caso use)
+.project
+.classpath
+.settings/
+
+########################################
+# 4. Logs
+########################################
+
+logs/
+*.log
+**/*.log
+
+########################################
+# 5. Sistema operacional
+########################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+########################################
+# 6. Docker
+########################################
+
+# Volumes e cache
+docker-data/
+docker-compose.override.yml
+
+########################################
+# 7. Arquivos sensíveis
+########################################
+
+# Certificados, keys, PEM, P12, etc
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+########################################
+# 8. Arquivos temporários
+########################################
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+########################################
+# 9. Arquivos Python ou Node (caso usar algo auxiliar)
+########################################
+
+__pycache__/
+node_modules/
+
+########################################
+# 10. Outros arquivos gerados
+########################################
+
+*.zip
+*.tar
+*.gz
